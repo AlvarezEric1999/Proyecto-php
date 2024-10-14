@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Gestion Citas</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <main class="bg-blue-500 w-screen h-screen flex items-center justify-center  ">
+        <section class="w-[350px] bg-white h-[500px] rounded-[8px] flex flex-col items-center justify-center" >
+            
+            
+            <form action="Connection.php" class=" w-3/4 h-2/4  flex flex-col pt-[10px]  " method="post">
+                
+                <input class="my-[10px] bg-gray-100 p-[8px]" type="text" placeholder="usuario" name="nombre">
+                <input class=" p-[8px] bg-gray-100" type="text" placeholder="contrasena" name="contrasena">
+                
+                <button type="submit" class="my-[10px] text-white	 bg-blue-500 p-[8px]">Iniciar Sesion</button>
+            </form>
+
+            <div class="flex text-[10px]">
+
+                <p class="px-[5px]">olvidaste tu contrasena?</p>
+                <p class="px-[5px]">no tienes un cuenta?  <a href="./registro.html">registrate</a></p>
+
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>

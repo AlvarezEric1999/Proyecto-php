@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Gestion Citas</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <main class="bg-blue-500 w-screen h-screen flex items-center justify-center  ">
+        <section class="w-[450px] bg-white h-[570px] rounded-[8px] flex flex-col justify-center items-center p-[10px] " >
+          
+           
+            <form  action="registro.php" class=" w-3/4 h-2/4  flex flex-col pt-[1px] " method="POST">
+               
+                <input class="my-[10px] bg-gray-100 p-[8px]" type="text" placeholder="nombre" name="nombre">
+               
+                <input class=" p-[8px] bg-gray-100" type="text" placeholder="email" name="email">
+                <!-- The second value will be selected initially -->
+               
+              
+  
+                <input class="p-[8px] my-[10px]  bg-gray-100" type="text" placeholder="numero-documento" name="numero-documento">
+                
+                <input class="my-[10px] bg-gray-100 p-[8px]" type="text" placeholder="contrasena" name="contrasena">
+               
+                <button type="submit" name="enviar" value="registrarse" class="my-[10px] text-white	 bg-blue-500 p-[8px]">Registrate</button>
+            </form>
+
+            
+
+        </section>
+
+    </main>
+</body>
+</html>
